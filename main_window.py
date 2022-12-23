@@ -37,7 +37,7 @@ class Ui_MainWindow(object):
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(160, 240, 201, 111))
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap("convert.png"))
+        self.label_2.setPixmap(QtGui.QPixmap("photo/convert.png"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
         self.Input_1 = QtWidgets.QLineEdit(self.centralwidget)

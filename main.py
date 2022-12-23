@@ -16,7 +16,7 @@ class CurrencyConverter(QtWidgets.QMainWindow):
 
     def init_UI(self):
         self.setWindowTitle('Currency converter')
-        self.setWindowIcon(QIcon('icon.png'))
+        self.setWindowIcon(QIcon('photo/icon.png'))
         self.ui.Input_1.setPlaceholderText('RUB')
         self.ui.Input_amount.setPlaceholderText('100')
         self.ui.Input_2.setPlaceholderText('USD')
@@ -70,6 +70,7 @@ class CurrencyConverter(QtWidgets.QMainWindow):
 
 app = QtWidgets.QApplication([])
 application = CurrencyConverter()
+application.setFixedSize(527, 777)
 application.show()
 
 sys.exit(app.exec())
